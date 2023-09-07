@@ -7,7 +7,7 @@ body {
     overflow: hidden;
 }
 
-header ul {
+.nav-bar ul {
     width: 100%;
     height: 5vh;
     margin: auto;
@@ -23,12 +23,12 @@ header ul {
 
 }
 
-a {
+.nav-bar a {
     text-decoration: none;
     color: rgb(197, 196, 196);
 }
 
-header li {
+.nav-bar li {
     
     text-transform: uppercase;
     cursor: pointer;
@@ -36,7 +36,7 @@ header li {
     margin: auto;
 }
 
-header li a:hover{
+h.nav-bar li a:hover{
     background-color: rgba(53, 53, 53, 0.678);
     color: #ffff;
     transition-duration: 0.4s;
