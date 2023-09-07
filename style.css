@@ -36,7 +36,7 @@ body {
     margin: auto;
 }
 
-h.nav-bar li a:hover{
+.nav-bar li a:hover{
     background-color: rgba(53, 53, 53, 0.678);
     color: #ffff;
     transition-duration: 0.4s;
