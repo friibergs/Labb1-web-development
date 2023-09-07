@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +10,58 @@
 
 
 <body>
-<header>
-    <nav class="nav-bar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 
-<main>
-    <div class:
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-</main>
+    <main>
+        <div class="main-container">
 
+            <div class="wrapper">
+
+                <div class="form-header">
+                    <h2>Let's chatt</h2>
+                    <p>Leave a message below</p>
+                </div>
+
+                <aside id="wrapper-img">
+                    <img src="./img/opening-email-ss-19200.jpg" alt="emails being sent">
+                </aside>
+
+                <div class="form-container">
+                    <form action="">
+                        <p>
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required autocomplete="on">
+                        </p>
+                        <p>
+                            <label for="Phone">Phone</label>
+                            <input type="text" id="Phone">
+                        </p>
+                        <p>
+                            <label for="messege">Write your message</label>
+                            <textarea name="" id="messege" cols="50" rows="15"></textarea>
+                        </p>
+                        <button id="contact-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>&copy; 2023 Hanna Friberg</footer>
 </body>
+
 </html>
