@@ -6,7 +6,6 @@ body {
     background-color: white;
 }
 
-
 .nav-bar ul {
     width: 100%;
     height: 6vh;
@@ -47,28 +46,43 @@ li:active {
     transform: translateY(4px);
 }
 
-.hero {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+.index-container {
+    background-color: rgba(235, 235, 235, 0.719);
+    padding: 5%;
+    border-radius: 2em;
+    width: 60%;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
     align-items: center;
-
-    text-align: center;
-    font-size: x-large;
-    text-shadow: 1px 2px rgb(139, 139, 137);
-
-    background-image: url("./img/hwJPG\ \(4\).jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    justify-content: center;
 }
 
-.hero-text {
-    color: rgba(255, 255, 255, 0.842);
+.left-column {
+    background-color: #fff;
+    padding: 20px;
 }
 
+.left-column form {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.right-column {
+    background-color: #fff;
+    padding: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
 
 button {
     display: inline-block;
@@ -221,6 +235,7 @@ textarea {
     width: 50%;
     height: 100%;
 }
+
 #space {
     margin-bottom: 48%;
 }
@@ -235,9 +250,22 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-
+    .hero-text {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+    .hero-text {
+        font-size: medium;
+    }
 }
+
+@media screen and (max-width: 992px) {
+    .hero-text {
+        font-size: large;
+    }
+
+}
+
+
