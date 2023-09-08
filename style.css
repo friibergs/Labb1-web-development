@@ -110,6 +110,36 @@ button:active {
     transform: translateY(4px);
 }
 
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    color: rgb(197, 196, 196);
+}
+
+aside .aside-container {
+    display: flex;
+    width: 50%;
+}
+
+aside .items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+aside .items li {
+    padding-bottom: 15px;
+}
+
 .main-container {
     padding: 15px;
     background-color: #ffff;
@@ -180,7 +210,7 @@ textarea:focus {
 input,
 textarea {
     padding: 1em;
-} 
+}
 
 .grid-container {
     display: grid;
@@ -308,13 +338,77 @@ footer {
         gap: 20px;
     }
 
+    .contact-container {
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%
+    }
+
+    #contact-btn,
+    input,
+    textarea {
+        padding: 0.5em;
+    }
+
+    input:focus {
+        background-color: rgba(138, 138, 138, 0.932);
+        color: white;
+        font-size: 12px;
+    }
+
+    textarea:focus {
+        background-color: rgba(138, 138, 138, 0.932);
+        color: white;
+        font-size: 12px;
+    }
 }
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    .grid {
+        margin-left: 5%;
+    }
+
+    .right-column {
+        height: 84%;
+        width: 100%;
+    }
+
+    article img {
+        max-width: 100%;
+        height: 90%;
+    }
+
+    .left-column {
+        font-size: small;
+    }
+
+    #contact-btn,
+    input,
+    textarea {
+        padding: 0.5em;
+    }
+
+    input:focus {
+        background-color: rgba(138, 138, 138, 0.932);
+        color: white;
+        font-size: 12px;
+    }
+
+    textarea:focus {
+        background-color: rgba(138, 138, 138, 0.932);
+        color: white;
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 25%;
+        margin-bottom: 50px;
+    }
+}
 
 @media screen and (max-width: 992px) {}
-
-
-
-
