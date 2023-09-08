@@ -338,6 +338,10 @@ footer {
         gap: 20px;
     }
 
+    aside {
+        font-size: x-small;
+    }
+
     .contact-container {
         background-color: #fff;
         display: flex;
@@ -403,6 +407,10 @@ footer {
         background-color: rgba(138, 138, 138, 0.932);
         color: white;
         font-size: 12px;
+    }
+
+    aside {
+        font-size: small;
     }
 
     footer {
