@@ -122,35 +122,41 @@ button:active {
 
 }
 
-.grid-container-contact-site {
-    display: grid;
-    grid-template-areas:
-        'form-header form-header'
-        'aside form-container'
-        'button button';
-    gap: 10px;
-    width: 45%;
-    height: 100%;
+.contact-container {
     background-color: rgba(235, 235, 235, 0.719);
-    border-radius: 2em;
-}
-
-aside #wrapper-img img {
-    max-width: 100%;
-    height: auto;
-}
-
-.form-container {
-    max-width: 100%;
-    height: auto;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    width: 60%;
+    height: 100%
 }
 
-.form-header {
-    margin: 30px;
-    grid-row: 1;
-    grid-column: span 2;
+.contact-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.centered-section {
+    text-align: center;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
 }
 
 label {
@@ -173,8 +179,8 @@ textarea:focus {
 #contact-btn,
 input,
 textarea {
-    padding: 1.5em;
-}
+    padding: 1em;
+} 
 
 .grid-container {
     display: grid;
@@ -308,3 +314,7 @@ footer {
 @media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 992px) {}
+
+
+
+
